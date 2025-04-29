@@ -39,7 +39,7 @@ function draw() {
   image(video, 0, 0);
 
   // Printing class with the highest probability on the canvas
-  fill(0, 255, 0);
+  fill('blue');
   textSize(32);
   text(label, 20, 50);
 }
